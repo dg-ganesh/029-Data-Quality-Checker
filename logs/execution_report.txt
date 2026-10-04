@@ -1,0 +1,11 @@
+2026-10-03T21:54:41 | Dataset loaded | PASS | customer_info.csv | 10,200 rows | 7 columns
+2026-10-03T21:55:02 | Dataset profiling | PASS | Duplicate rows: 195
+2026-10-03T22:00:43 | Data validation | PASS | Rules: 7 | Passed: 4 | Failed: 3 | Warnings: 0 | Failed records: 10595
+2026-10-03T22:01:12 | Data validation | PASS | Rules: 7 | Passed: 4 | Failed: 3 | Warnings: 0 | Failed records: 10595
+2026-10-04T01:48:10 | Dataset loaded | PASS | customer_info.csv | 10,200 rows | 7 columns
+2026-10-04T01:48:13 | Dataset profiling | PASS | Duplicate rows: 195
+2026-10-04T01:48:18 | Data validation | PASS | Rules: 7 | Passed: 5 | Failed: 2 | Warnings: 0 | Failed records: 395
+2026-10-04T08:54:35 | Dataset loaded | PASS | customer_info.csv | 10,200 rows | 7 columns
+2026-10-04T08:54:37 | Dataset profiling | PASS | Duplicate rows: 195
+2026-10-04T08:55:00 | Data validation | PASS | Rules: 7 | Passed: 5 | Failed: 2 | Warnings: 0 | Failed records: 395
+2026-10-04T08:55:00 | Quality assessment | PASS | Quality score: 99.45 | Categories: 6 | Columns: 4

@@ -1,0 +1,64 @@
+[
+    {
+        "rule_id": "REQ_001",
+        "column_name": "CustomerID",
+        "rule_type": "required",
+        "parameters": {},
+        "severity": "FAIL",
+        "description": "Customer ID must be present."
+    },
+    {
+        "rule_id": "REQ_002",
+        "column_name": "Gender",
+        "rule_type": "required",
+        "parameters": {},
+        "severity": "WARNING",
+        "description": "Gender should be present."
+    },
+    {
+        "rule_id": "BLANK_001",
+        "column_name": "CustomerID",
+        "rule_type": "blank",
+        "parameters": {},
+        "severity": "FAIL",
+        "description": "Customer ID must not be blank."
+    },
+    {
+        "rule_id": "DUP_001",
+        "column_name": "__ROW__",
+        "rule_type": "duplicate",
+        "parameters": {},
+        "severity": "FAIL",
+        "description": "Complete records should be unique."
+    },
+    {
+        "rule_id": "TYPE_001",
+        "column_name": "MonthlyCharges",
+        "rule_type": "datatype",
+        "parameters": {
+            "expected_type": "number"
+        },
+        "severity": "FAIL",
+        "description": "Monthly charges must be numeric."
+    },
+    {
+        "rule_id": "RANGE_001",
+        "column_name": "MonthlyCharges",
+        "rule_type": "range",
+        "parameters": {
+            "minimum": 0
+        },
+        "severity": "FAIL",
+        "description": "Monthly charges cannot be negative."
+    },
+    {
+        "rule_id": "FORMAT_001",
+        "column_name": "CustomerID",
+        "rule_type": "format",
+        "parameters": {
+            "pattern": "^CUST_[0-9]+$"
+        },
+        "severity": "FAIL",
+        "description": "Customer ID should follow the CUST-number format."
+    }
+]
